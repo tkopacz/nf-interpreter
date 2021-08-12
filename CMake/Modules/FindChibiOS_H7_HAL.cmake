@@ -176,6 +176,7 @@ set(CHIBIOS_HAL_SRCS
 
     hal_serial_lld.c
     hal_uart_lld.c
+    hal_sio_lld.c
 
     hal_wdg_lld.c
 
