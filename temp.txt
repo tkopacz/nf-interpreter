@@ -1,0 +1,13 @@
+                "NF_INTEROP_ASSEMBLIES" : [ "NFClassLibrary1" ] - NIE NIE NIE 
+        {
+            "name": "M5Core2",
+            "inherits": [
+                "user-local-tools",
+                "user-prefs",
+                "M5Core2_preset"
+            ],
+            "cacheVariables": {
+                "TARGET_NAME": "${presetName}",
+				"NF_INTEROP_ASSEMBLIES" : "NFClassLibrary1"
+			}
+        },
